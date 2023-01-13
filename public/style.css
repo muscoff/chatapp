@@ -1,0 +1,40 @@
+body.index{
+    background-color: rgb(49, 49, 49);
+}
+
+.chatbody{
+    width: 95%;
+    margin: 0px auto;
+    overflow-y: auto;
+}
+
+.messages{
+    overflow-y: auto;
+}
+
+.sender, .receiver{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.receiver{
+    flex-direction: row;
+}
+
+.sender div, .receiver div{
+    border-radius: 3px;
+    padding: 4px;
+    max-width: 250px;
+    background-color: rgb(201, 219, 110);
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.receiver div{
+    background-color: #fff;
+}
+
+input{
+    width: 100%;
+    padding: 10px 12px;
+}
